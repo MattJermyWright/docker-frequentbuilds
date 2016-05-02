@@ -1,0 +1,8 @@
+DB Username: dbadmin
+Password: Blank for now
+
+Database Connection:
+jdbc:vertica://172.16.138.152:32768/docker
+
+port 32768 is dynamic and defined once the docker 
+container goes up.
