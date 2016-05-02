@@ -21,6 +21,7 @@ ENV TZ "US/Eastern"
 RUN groupadd -r verticadba
 RUN useradd -r -m -g verticadba dbadmin
 
+## Need to download this from my.vertica.com
 ADD vertica-7.2.2-1.x86_64.RHEL6.rpm /rpms/vertica-7.2.2-1.x86_64.RHEL6.rpm
 
 RUN yum install -y /rpms/vertica-7.2.2-1.x86_64.RHEL6.rpm
