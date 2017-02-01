@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Destroying Swarm cluster ..."
 
-export NUMBER_OF_NODES="2" # Use to delete multiple nodes - assumes same naming convention
+export NUMBER_OF_NODES="9" # Use to delete multiple nodes - assumes same naming convention
 
 # Remove the nodes first
 for i in `seq 1 $NUMBER_OF_NODES`
